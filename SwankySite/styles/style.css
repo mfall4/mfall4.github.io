@@ -65,7 +65,7 @@
       float: left;
       padding-left: 20px;
       /*animation: ticker 10s cubic-bezier(1, 0, .5, 0) infinite;*/
-      animation: linear 10s infinite;
+      /*animation: linear 10s infinite;*/
       -webkit-user-select: none
     }
 
