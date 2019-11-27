@@ -82,14 +82,19 @@
       -webkit-user-select: none
     }
 
-    .news ul:hover { animation-play-state: paused }
-    .news span:hover+ul { animation-play-state: paused }
+    .news ul:hover {
+      animation-play-state: paused;
+    }
+
+    .news span:hover+ul {
+      animation-play-state: paused;
+    }
 
     @keyframes ticker {
         0%   {margin-top: 0}
-        25%  {margin-top: -30px}
-        50%  {margin-top: -60px}
-        75%  {margin-top: -90px}
+        25%  {margin-top: -25px}
+        50%  {margin-top: -50px}
+        75%  {margin-top: -75px}
         100% {margin-top: 0}
       }
       
