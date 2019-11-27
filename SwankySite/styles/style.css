@@ -92,9 +92,9 @@
 
     @keyframes ticker {
         0%   {margin-top: 0}
-        25%  {margin-top: +25px}
-        /* 50%  {margin-top: +50px}
-        75%  {margin-top: +75px}
-        100% {margin-top: 0} */
+        25%  {margin-top: 25px}
+        50%  {margin-top: 50px}
+        75%  {margin-top: 75px}
+        100% {margin-top: 25px}
       }
       
