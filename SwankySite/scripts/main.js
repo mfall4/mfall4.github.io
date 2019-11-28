@@ -31,27 +31,30 @@
 
 function getNews() {
   var ul = document.getElementsByTagName('ul')[0];
-  function readTextfile() {
-    var xhr = new XMLHttpRequest();
-    xhr.onreadystatechange = function () {
-      if (xhr.readyState === 4) {
-        if (xhr.status == 200) {
-          var lines = xhr.responseText.split('\n');
-          for (var i = 0; i < lines.length; i++) {
-            showContents(lines[i]);
-          }
+
+    function readTextfile() {
+        var xhr = new XMLHttpRequest();
+
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState === 4) {
+                if (xhr.status == 200) {
+                  var lines = xhr.responseText.split('\n');
+                  for (var i = 0; i < lines.length; i++) {
+                      showContents(lines[i]);
+                  }
+                }
+            }
         }
-      }
-    };
-    xhr.open('GET', "Others/News.txt", true);
-    xhr.send();
-  }
-  function showContents(responseText) {
-    var li = document.createElement('li');
-    //var date = new Date();
-    //li.textContent = date + ': ' + responseText;
-    li.textContent = responseText;
-    ul.appendChild('li');
-  }
-  readTextfile();
-}
+
+        xhr.open('GET', "C://whatever.txt", true);
+        xhr.send();
+    }
+
+    function showContents(responseText) {
+        var li = document.createElement('li');
+        var date = new Date();
+        li.textContent = date + ': ' + responseText;
+        ul.appendChild(li);
+    }
+
+    readTextfile();
