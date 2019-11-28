@@ -43,11 +43,22 @@
   .tcontainer{
     width: 100%;
     overflow: hidden;
+    font-family: 'Segoe UI';
+    position: absolute bottom;
   }
+
+  #ticker-footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+  }
+
   .ticker-wrap {
     width: 100%;
     padding-left: 100%;
-    background-color: #eee;
+    background-color: rgb(28, 28, 28);
   }
   .ticker-move {
     display: inline-block;
@@ -56,12 +67,14 @@
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
-    animation-duration: 15s;
+    animation-duration: 60s;
   }
   .ticker-move:hover{
     animation-play-state: paused;
   }
-  .ticker-item{
+  .ticker-item {
     display: inline-block;
-    padding: 0 2rem;
+    padding: 5px 5px 5px 5px;
+    vertical-align: middle;
+    color: white;
   }
