@@ -59,3 +59,4 @@ function getNews() {
     }
 
     readTextfile();
+  }
