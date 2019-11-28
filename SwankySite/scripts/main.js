@@ -30,7 +30,7 @@
 
 
 function getNews() {
-  var ul = document.getElementsById('#addHere')[0];
+  var ul = document.getElementById('#addHere')[0];
   function readTextfile() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
