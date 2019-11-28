@@ -52,9 +52,13 @@ function getNews() {
 
     function showContents(responseText) {
         var li = document.createElement('li');
+        let listImage = document.createElement('li');
         //var date = new Date();
         li.className = "ticker-item";
+        listImage.className = "ticker-item";
+        listImage.innerHTML = '<img width="22px" height="22px" src="images/tdlogo-ticker.png"/>';
         li.textContent = responseText;
+        ul.appendChild(listImage);
         ul.appendChild(li);
     }
 
