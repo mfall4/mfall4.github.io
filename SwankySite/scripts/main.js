@@ -46,7 +46,7 @@ function getNews() {
             }
         }
 
-        xhr.open('GET', "C://whatever.txt", true);
+        xhr.open('GET', "Others/News.txt", true);
         xhr.send();
     }
 
