@@ -52,8 +52,9 @@ function getNews() {
 
     function showContents(responseText) {
         var li = document.createElement('li');
-        var date = new Date();
-        li.textContent = date + ': ' + responseText;
+        //var date = new Date();
+        li.className = "ticker-item";
+        li.textContent = responseText;
         ul.appendChild(li);
     }
 
