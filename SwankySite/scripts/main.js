@@ -30,7 +30,7 @@
 
 
 function getNews() {
-  var ul = document.getElementsByTagName('ul')[0];
+  var ul = document.getElementsById("#addHere")[0];
   function readTextfile() {
     var xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
@@ -47,9 +47,10 @@ function getNews() {
     xhr.send();
   }
   function showContents(responseText) {
-    var li = document.createElement('li');
-    var date = new Date();
-    li.textContent = date + ': ' + responseText;
+    var li = document.createElement('div');
+    //var date = new Date();
+    //li.textContent = date + ': ' + responseText;
+    li.textContent = responseText;
     ul.appendChild(li);
   }
   readTextfile();
