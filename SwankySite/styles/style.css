@@ -69,7 +69,7 @@ html {
   .ticker-move {
     display: inline-block;
     white-space: nowrap;
-    padding-right: 50%;
+    padding-right: 0%;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
