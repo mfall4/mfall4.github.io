@@ -38,7 +38,7 @@ html {
   } */
 
   body{
-    background: url("images/TDBank-Store.jpg");
+    background-image: url("images/TDBank-Store.jpg");
     background-attachment:fixed;
     background-repeat: no-repeat;
     background-size: cover;
