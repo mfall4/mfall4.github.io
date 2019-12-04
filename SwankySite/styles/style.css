@@ -32,11 +32,11 @@
   } */
 
   body{
-    background-image: url("images/TDBank-Store.jpg");
-    background-color: lightgray;
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("https://github.com/mfall4/mfall4.github.io/tree/master/SwankySite/images/TDBank-Store.jpg") no-repeat fixed left top;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: multiply;
+    opacity: 1;
+    transition: 0.7s opacity;
   }
 
   @keyframes ticker {
