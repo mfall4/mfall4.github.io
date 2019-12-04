@@ -70,8 +70,8 @@ html {
     animation-duration: 60s;
     padding-top: 2px;
     margin-top: 2px;
-    padding-bottom: 1px;
-    margin-bottom: 1px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
   }
   .ticker-move:hover{
     animation-play-state: paused;
@@ -81,7 +81,9 @@ html {
     padding-top: 0px;
     padding-left: 6px;
     padding-right: 6px;
+    padding-bottom: 0px;
     margin-top: 0px;
+    margin-bottom: 0px;
     vertical-align: middle;
     font: 17px 'Segoe UI';
     color: white;
