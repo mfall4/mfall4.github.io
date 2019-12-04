@@ -45,6 +45,8 @@ html {
     width: 100%;
     overflow: hidden;
     position: absolute bottom;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   #ticker-footer {
