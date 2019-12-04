@@ -45,6 +45,7 @@ html {
     width: 100%;
     overflow: hidden;
     font-family: 'Segoe UI';
+    font-size: medium;
     position: absolute bottom;
   }
 
@@ -53,7 +54,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 40px;
+    height: auto;
   }
 
   .ticker-wrap {
