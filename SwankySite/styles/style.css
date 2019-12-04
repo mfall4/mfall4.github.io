@@ -69,11 +69,13 @@ html {
   .ticker-move {
     display: inline-block;
     white-space: nowrap;
-    padding-right: 0%;
+    padding-right: 100%;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: ticker;
     animation-duration: 60s;
+    padding-top: 0px;
+    margin-top: 0px;
   }
   .ticker-move:hover{
     animation-play-state: paused;
