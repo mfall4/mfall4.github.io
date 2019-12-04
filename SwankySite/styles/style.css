@@ -45,8 +45,6 @@ html {
     width: 100%;
     overflow: hidden;
     position: absolute bottom;
-    padding-top: 0px;
-    margin-top: 0px;
   }
 
   #ticker-footer {
@@ -55,16 +53,12 @@ html {
     right: 0;
     bottom: 0;
     height: 50px;
-    padding-top: 0px;
-    margin-top: 0px;
   }
 
   .ticker-wrap {
     width: 100%;
     padding-left: 100%;
     background-color: rgb(28, 28, 28);
-    padding-top: 0px;
-    margin-top: 0px;
   }
   .ticker-move {
     display: inline-block;
@@ -74,8 +68,10 @@ html {
     animation-timing-function: linear;
     animation-name: ticker;
     animation-duration: 60s;
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 2px;
+    margin-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
   }
   .ticker-move:hover{
     animation-play-state: paused;
