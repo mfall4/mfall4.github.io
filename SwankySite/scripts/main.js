@@ -28,9 +28,8 @@
 //     setUserName();
 //   }
 
-let ticker = document.querySelector("#ticker-footer");
 
-ticker.onload = function getNews() {
+function getNews() {
   var ul = document.getElementsByTagName('ul')[0];
 
     function readTextfile() {
