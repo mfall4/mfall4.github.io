@@ -1,9 +1,10 @@
-/* html {
+html {
     font-size: 10px;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Segoe UI';
     background-color: lightgray;
   }
 
+/*
   h1 {
     font-size: 40px;
     text-align: center;
