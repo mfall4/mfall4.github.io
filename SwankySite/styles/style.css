@@ -44,10 +44,7 @@ html {
   .tcontainer{
     width: 100%;
     overflow: hidden;
-    font-family: 'Segoe UI';
-    font-size: 16px;
     position: absolute bottom;
-    margin: 0px 0px;
   }
 
   #ticker-footer {
@@ -78,7 +75,7 @@ html {
   .ticker-item {
     display: inline-block;
     padding: 5px 5px 5px 5px;
-    margin-top: 0px;
     vertical-align: middle;
+    font: 20px 'Segoe UI';
     color: white;
   }
