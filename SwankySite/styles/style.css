@@ -45,7 +45,7 @@ html {
     width: 100%;
     overflow: hidden;
     font-family: 'Segoe UI';
-    font-size: 16px;
+    font-size: 14px;
     position: absolute bottom;
   }
 
@@ -54,7 +54,7 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 50px;
+    height: 45px;
   }
 
   .ticker-wrap {
@@ -76,7 +76,8 @@ html {
   }
   .ticker-item {
     display: inline-block;
-    padding: 4px 5px 2px 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 2px;
     vertical-align: middle;
     color: white;
   }
