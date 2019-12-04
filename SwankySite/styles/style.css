@@ -59,6 +59,8 @@ html {
     width: 100%;
     padding-left: 100%;
     background-color: rgb(28, 28, 28);
+    padding-top: 0px;
+    margin-top: 0px;
   }
   .ticker-move {
     display: inline-block;
