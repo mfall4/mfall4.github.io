@@ -55,6 +55,8 @@ html {
     right: 0;
     bottom: 0;
     height: 50px;
+    padding-top: 0px;
+    margin-top: 0px;
   }
 
   .ticker-wrap {
