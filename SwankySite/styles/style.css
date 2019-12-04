@@ -31,7 +31,7 @@
     margin: 0 auto;
   } */
 
-  body{
+  html {
     background-image: url('images/TDBank-Store.jpg') no-repeat fixed left top;
     background-color: rgba(0,0,0,.4);
     background-blend-mode: multiply;
