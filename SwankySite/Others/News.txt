@@ -1,3 +1,2 @@
-FC&FMG 2019 Roadshow - Greenville - Dec 4th @ 10 AM
-This is another line from the <strong>news</strong> file
-Also another line from the news file
+FC&FMG 2019 Roadshow: Greenville - Dec 4th @ 10 AM; Mt. Laurel - Dec 5th @ 10 AM & 2 PM
+Another line of news goes here
