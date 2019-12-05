@@ -31,8 +31,8 @@
     margin: 0 auto;
   } */
 
-  html {
-    background-image: url('images/TDBank-Store.jpg') no-repeat fixed left top;
+  body {
+    background-image: url('https://mfall4.github.io/SwankySite/images/TDBank-Store.jpg') no-repeat fixed left top;
     background-color: rgba(0,0,0,.4);
     background-blend-mode: multiply;
     opacity: 1;
