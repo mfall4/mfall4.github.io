@@ -37,6 +37,8 @@
     background-blend-mode: multiply;
     opacity: 1;
     transition: 0.7s opacity;
+    width: 90%;
+    height: 700px;
   }
 
   @keyframes ticker {
